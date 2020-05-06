@@ -1,20 +1,52 @@
-# JetBot
+# DL-Collision-Avoidance
+_Using Nvidia Jetson Nano to run an AI classifier to prevent robot from entering blocked scenarios_
 
-<!--[<img src="https://img.shields.io/discord/553852754058280961.svg">](https://discord.gg/Ady6NtF) -->
+![Copy of DSC01400](https://user-images.githubusercontent.com/34294344/70954680-4f09ad80-20c2-11ea-9e8f-301455e309e3.jpg)
+Photo Credit: [Lasse Nordahl](https://github.com/LasseNordahl)
 
-> Looking for a quick way to get started with JetBot?  Many third party kits are [now available](../../wiki/third-party-kits)!
+This repository and project is derived from [Nvidia's Jetson Nano Development Program](https://developer.nvidia.com/embedded/learn/get-started-jetson-nano-devkit)
 
-<img src="../..//wiki/images/jetson-jetbot-illustration_1600x1260.png" height="256">
+## Nvidia Jetson Nano
 
-JetBot is an open-source robot based on NVIDIA Jetson Nano that is
+The NVIDIA® Jetson Nano™ is a small computer that can run multiple neural networks in parallel. It can run efficiently with as little as 5 watts. 
 
-* **Affordable** - Less than $150 add-on to Jetson Nano
-* **Educational** - Tutorials from basic motion to AI based collision avoidance
-* **Fun!** - Interactively programmed from your web browser
+Hardware     | Specification    | 
+| ------------- |:-------------:|
+| GPU     | 128-core Maxwell | 
+| CPU     | Quad-core ARM A57 @ 1.43 GHz      | 
+| Memory | 4 GB 64-bit LPDDR4 25.6 GB/s   | 
 
-Building and using JetBot gives the hands on experience needed to create entirely new AI projects.
+## Construction & Setup
 
-To get started, read the [JetBot Wiki](https://github.com/NVIDIA-AI-IOT/jetbot/wiki).
+1. [Bill of Materials](https://github.com/NVIDIA-AI-IOT/jetbot/wiki/bill-of-materials)
+2. [Hardware Setup](https://github.com/NVIDIA-AI-IOT/jetbot/wiki/hardware-setup)
+3. [Software Setup](https://github.com/NVIDIA-AI-IOT/jetbot/wiki/software-setup)
 
+![nano](https://developer.nvidia.com/sites/default/files/akamai/embedded/images/jetsonNano/gettingStarted/jetson-nano-dev-kit-top-r6-HR.png)
 
-[![Analytics](https://ga-beacon.appspot.com/UA-135919510-1/jetbot/README?pixel)](https://github.com/igrigorik/ga-beacon)
+### Software
+
+The software image is an Ubuntu 18.04 LTS image with the following dependencies:
+  - Python 3 (including PIL)
+  - Jupyter
+  - Numpy
+  - PyTorch
+  - TensorFlow
+  - Nodejs
+
+  ![software](https://developer.nvidia.com/sites/default/files/akamai/embedded/images/jetsonNano/gettingStarted/Jetson_Nano-Getting_Started-Setup_Welcome_Screen.png)
+
+  ## Capabilities
+
+  ### [Operation](https://youtu.be/xaT0I2esxsE)
+
+  ### [Teleoperation](https://youtu.be/Ldom5pZR-MQ)
+
+  ### Collision Avoidance
+  
+  #### Collect Data
+  
+  <img width="1109" alt="Screen Shot 2019-12-19 at 4 04 06 pm" src="https://user-images.githubusercontent.com/34294344/71788478-bb028480-3076-11ea-8532-a01b971e1f00.png">
+  
+
+  
